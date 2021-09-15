@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/home/abryant/code/European-Central-Bank/test" tests="2" assertions="137" errors="0" warnings="0" failures="0" skipped="0" time="2.378676">
+    <testsuite name="ScriptFUSIONTest\Porter\Provider\EuropeanCentralBank\DailyForexRatesTest" file="/home/abryant/code/European-Central-Bank/test/DailyForexRatesTest.php" tests="2" assertions="137" errors="0" warnings="0" failures="0" skipped="0" time="2.378676">
+      <testcase name="testAsync" class="ScriptFUSIONTest\Porter\Provider\EuropeanCentralBank\DailyForexRatesTest" classname="ScriptFUSIONTest.Porter.Provider.EuropeanCentralBank.DailyForexRatesTest" file="/home/abryant/code/European-Central-Bank/test/DailyForexRatesTest.php" line="62" assertions="69" time="1.314309"/>
+      <testcase name="testSync" class="ScriptFUSIONTest\Porter\Provider\EuropeanCentralBank\DailyForexRatesTest" classname="ScriptFUSIONTest.Porter.Provider.EuropeanCentralBank.DailyForexRatesTest" file="/home/abryant/code/European-Central-Bank/test/DailyForexRatesTest.php" line="38" assertions="68" time="1.064367"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

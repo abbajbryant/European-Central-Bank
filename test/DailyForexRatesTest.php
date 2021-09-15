@@ -19,7 +19,7 @@ final class DailyForexRatesTest extends TestCase
     /** @var Porter */
     private $porter;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -54,7 +54,7 @@ final class DailyForexRatesTest extends TestCase
 
         // Each rate must be a non-zero, positive float.
         foreach ($rates as $rate) {
-            self::assertInternalType('float', $rate);
+            self::assertIsFloat($rate);
             self::assertGreaterThan(0, $rate);
         }
     }
@@ -81,7 +81,7 @@ final class DailyForexRatesTest extends TestCase
 
             // Each rate must be a non-zero, positive float.
             foreach ($rates as $rate) {
-                self::assertInternalType('float', $rate);
+                self::assertIsFloat($rate);
                 self::assertGreaterThan(0, $rate);
             }
         });
