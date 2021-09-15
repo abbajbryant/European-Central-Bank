@@ -14,6 +14,7 @@
     }
   ],
   "require": {
+    "php": "^7.3|^8",
     "ext-simplexml": "*",
     "amphp/amp": "^2.1",
     "amphp/process": "^1.1",
